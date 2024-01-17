@@ -68,7 +68,7 @@ class MyService(Service):
         img = np.array(img_pil)
 
         faces = RetinaFace.detect_faces(img)
-        self.logger.info(f"Found {len(faces)} faces")
+        self._logger.info(f"Found {len(faces)} faces")
 
         # https://stackoverflow.com/a/57915246
         class NpEncoder(json.JSONEncoder):
