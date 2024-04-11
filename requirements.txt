@@ -1,4 +1,4 @@
 common-code[test] @ git+https://github.com/swiss-ai-center/common-code.git@main
-numpy==1.24.2
-Pillow==9.4.0
-retina-face==0.0.13
+numpy==1.26.4
+pillow==10.2.0
+retina-face==0.0.15
